@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[10.5pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -42,7 +42,11 @@
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true
+    urlcolor = cyan
+}
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
@@ -52,16 +56,16 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{profile}
-\name{Claud D.}{Park}
-\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
-\address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
+%\photo[circle,noedge,left]{profile}
+\name{David Jinher}{Zhu}
+\position{Chemical and Process Engineering PhD Candidate}
+\address{11A Viscount Road, Morley, WA, 6062}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{(+61) 414 216 908}
+\email{david.zhu@research.uwa.edu.au}
+%\homepage{www.posquit0.com}
+\github{davidzhuuwa}
+\linkedin{davidzhuu}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -69,7 +73,7 @@
 % \reddit{reddit-id}
 % \extrainfo{extra informations}
 
-\quote{``Be the change that you want to see in the world. Now!"}
+%\quote{``Be the change that you want to see in the world. Now!"}
 
 
 %-------------------------------------------------------------------------------
@@ -78,18 +82,18 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  {Recruitment Team at Santos Ltd}
+  {Level 7 \\ 100 St Georges Terrace \\ Perth \\ Western Australia, 6000}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Re: Santos 2022/2023 Summer Vacation Program}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{Dear Recruitment at Santos,}
 % How the letter is closed
-\letterclosing{Sincerely,}
+\letterclosing{Yours Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+%\letterenclosure[Attached]{Resume}
 
 
 %-------------------------------------------------------------------------------
@@ -103,7 +107,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
+  {David J. Zhu~~~·~~~Cover Letter}
   {}
 
 % Print the title with above letter informations
@@ -113,15 +117,51 @@
 %	LETTER CONTENT
 %-------------------------------------------------------------------------------
 \begin{cvletter}
+With my strong background in research and flow assurance stemming from my PhD Candidature and my First Class Honours degree in Chemical
+Engineering, I am confident that I will be a great fit with the team at Santos in any capacity and location.
 
-\lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+%\lettersection{About Me}
+My robust research background stems from my PhD and Honours at UWA and my maintenance research internship at Downer Group. My PhD has been focused on developing a more physically robust model for hydrate phase equilibria to improve the prediction accuracy. This work is highly relevant to midstream oil and gas operations in reducing the associated mono-ethylene glycol (MEG) requirement for total inhibition. I chose to pursue a PhD in this field because my passion for chemical engineering stems from my interest in process optimisation. The fulfilment of this undertaking further reinforced this
+passion. I wish to expand and apply this knowledge to fields within and
+outside this area with Santos, where I can significantly contribute to
+engineering projects and work towards Santos's goal of net-zero by 2040. I am in
+the penultimate year of PhD and expect to submit my thesis in Q2/Q3 2023. During
+my time at university, my exemplary academic record is complimented by a repertoire of teamwork, problem-solving,
+communication and leadership skills; I believe these traits and capabilities
+make me a valuable addition to Santos.
 
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+%\lettersection{Why X?}
+I believe my experience will enable me to fit in well with Santos' key
+values. My internship at Downer Group in 2016
+was the launchpad of my research journey, allowing me to begin
+developing my communication skills and extending my knowledge of key
+maintenance concepts and technologies within the engineering field. 
+Throughout my PhD, I have developed my written and verbal
+communication skills extensively through presenting my research to both
+technical and non-technical audiences in both poster and oral presentations at
+various conferences and symposia. Most recently, I presented at one of UWA's Tieback Symposia
+on the new hydrate phase boundary tool I developed in
+\href{https://youtu.be/Y--bsK84t_c}{December 2021}, the culmination of my PhD to date then, which was received well by industry members present. The research, analytical and problem-solving skills I have developed during my research career have fostered a creative and critical mindset that encourages innovative thinking. 
+%My research
+%involved developing a holistic overview of the state of the wireless maintenance
+%technologies available, evaluating products regarding cost, availability, size,
+%communication technology and much more. I presented these findings to a small group
+%of senior management in a short 20-minute presentation, and a 30-page report, and
+%was commended highly for my ability to summarise and convey highly technical
+%information in a manner that was digestible to an audience with varying
+%technical backgrounds. 
 
-\lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+%\lettersection{Why Me?}
+I value a working and social environment that is safe and conducive for
+excellence in the future. From an operational perspective, I have experience of
+over 300 hours working in labs with hazardous chemicals and equipment at the
+Australian Resources Research Centre (ARRC) for my honours thesis. I also
+conduct safety inspections for my research group at both ARRC and UWA
+laboratories every second month. Additionally, I have also undertaken numerous lab
+demonstrations for third-year engineering students, where I was solely responsible for their supervision and informed them of the necessary safety requirements before entry and during the laboratory session. These experiences have instilled the importance of identifying hazards and implementing thorough risk management plans, leading me to be constantly aware of my peers and surroundings and ensuring I wear the appropriate PPE. From a social perspective, my experience as a
+Postgraduate Unimentor at UWA and an Academic Tutor have exposed me to various students with different learning styles and backgrounds. These experiences have fostered vital skills such as active listening, initiative and cultural awareness, which will serve me well when adjusting to working in a new team in an unfamiliar environment.
+
+Thank you for taking the time to consider my application and review my resume. I look forward to any opportunity to discuss the position and what I can do for Santos. I believe my vision and values align with Santos, and I'd be an excellent fit for the company. My contact details are listed if you require any other information.
 
 \end{cvletter}
 
